@@ -53,7 +53,7 @@ function Hero() {
 
   return (
     <section id="inicio" className="relative flex min-h-[100svh] w-full flex-col overflow-hidden bg-[#17130f] text-white" aria-label="Apresentação do Life 80+">
-      <video ref={videoRef} className="pointer-events-none absolute inset-0 h-full w-full object-cover" src={VIDEO_URL} autoPlay muted loop playsInline preload="auto" aria-hidden="true" />
+      <video ref={videoRef} className="pointer-events-none absolute inset-0 h-full w-full object-cover" src={VIDEO_URL} poster="/footer-bloom.jpg" autoPlay muted loop playsInline preload="auto" aria-hidden="true" />
       <div className="pointer-events-none absolute inset-0 bg-gradient-to-b from-black/65 via-black/30 to-black/15 sm:from-black/55 sm:via-black/20" aria-hidden="true" />
 
       <header className="relative z-10 w-full px-5 py-4 sm:px-6 sm:py-5 md:px-12 lg:px-16">
