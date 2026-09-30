@@ -4,7 +4,8 @@ import ParticipationForm from './components/ParticipationForm';
 import { evaluationTopics, partners, participationSteps, RESEARCH_SOURCE_URL, studyFacts } from './content/research';
 import { CONTACT_EMAIL, emailDraft, INSTAGRAM_URL, ROUTES } from './lib/links';
 
-const VIDEO_URL = 'https://d8j0ntlcm91z4.cloudfront.net/user_38xzZboKViGWJOttwIXH07lWA1P/hf_20260703_053131_1ec3dd1c-d627-44fb-ab20-6e1fce41b0d5.mp4';
+// O arquivo local preserva o vídeo escolhido e mantém o hero visível sem depender da CDN.
+const VIDEO_URL = '/hero-bloom.mp4';
 
 const navigation = [
   { label: 'A pesquisa', href: ROUTES.project },
