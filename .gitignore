@@ -1,0 +1,8 @@
+# Dependências e build
+node_modules/
+dist/
+.env.local
+
+# Artefatos locais das verificações visuais
+.tmp-preview/
+.idea/
